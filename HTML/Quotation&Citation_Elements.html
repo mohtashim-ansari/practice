@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotation and Citation Elements</title>
+</head>
+<body>
+
+    <!-- q TAG = SHORT QUOTE
+         - Chote quotes ke liye use hota hai
+         - Browser automatically quotes (" ") laga deta hai -->
+    <p>
+        He said, <q>Hello, how are you?</q>
+    </p>
+
+    <!-- blockquote TAG = LONG QUOTE
+         - Lambi lines ya paragraph-style quote ke liye
+         - Browser isko indent (andar ki taraf) karke dikhata hai
+         - "cite" attribute optional hai, yeh source batata hai -->
+    <blockquote cite="https://example.com/quote-source">
+        Life is like riding a bicycle. To keep your balance, you must keep moving.
+    </blockquote>
+
+    <!-- cite TAG = Title of a work
+         - Kisi book, movie, article, website ka title likhne ke liye
+         - Person ka name likhne ke liye nahi use hota -->
+    <p>
+        This quote is from <cite>Einstein’s Collection of Quotes</cite>.
+    </p>
+
+    <!-- abbr TAG = Abbreviation (short form)
+         - Short forms ke liye
+         - "title" attribute hover par full form dikhata hai -->
+    <p>
+        <abbr title="World Health Organization">WHO</abbr> works globally for health.
+    </p>
+
+    <!-- address TAG = Contact or Author Information
+         - Mostly article ke end me use hota hai
+         - Author ka naam, email, website, address wagaira dikhata hai -->
+    <address>
+        Written by John Smith.<br>
+        Visit us at example.com
+    </address>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!--⭐ What is a Form?
+Form = User se data collect karne ka tarika.
+(Jaise: name, email, password, message, feedback)
+Form data server ko send hota hai.-->
+
+
+<!-- FULL FORM START -->
+<form action="submit.php" method="post">
+
+    <!-- TEXT INPUT -->
+    <label>Name:</label>
+    <input type="text" name="name"><br><br>
+
+    <!-- EMAIL -->
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <!-- PASSWORD -->
+    <label>Password:</label>
+    <input type="password" name="password"><br><br>
+
+    <!-- RADIO BUTTONS -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" > Male<br>
+    <input type="radio" name="gender" > Female<br><br>
+
+    <!-- CHECKBOX -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox"> Reading <br>
+    <input type="checkbox"> Music <br><br>
+
+    <!-- DROPDOWN -->
+    <label>Country:</label>
+    <select name="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+    </select><br><br>
+
+    <!-- TEXTAREA -->
+    <label>Message:</label><br>
+    <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+    <!-- SUBMIT BUTTON -->
+    <input type="submit" value="Submit Form">
+
+</form>
+<!-- FORM END -->

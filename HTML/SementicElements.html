@@ -1,0 +1,160 @@
+<!--⭐ What Are Semantic Elements?
+Semantic elements meaningful hote hain —
+Ye browser aur developer dono ko batate hain ki page ka kaunsa part kya purpose rakhta hai.-->
+
+<table border="1" cellpadding="10" cellspacing="0">
+
+  <tr style="background-color: lightgray;">
+    <th>Semantic Element</th>
+    <th>Description (Theory)</th>
+    <th>Example Purpose</th>
+  </tr>
+
+  <tr>
+    <td>&lt;header&gt;</td>
+    <td>Page ka top section ya intro content.</td>
+    <td>Logo, title, navigation</td>
+  </tr>
+
+  <tr>
+    <td>&lt;nav&gt;</td>
+    <td>Navigation links ko group karta hai.</td>
+    <td>Menu, navbar</td>
+  </tr>
+
+  <tr>
+    <td>&lt;section&gt;</td>
+    <td>Page ka ek separate logical part.</td>
+    <td>Chapters, topic sections</td>
+  </tr>
+
+  <tr>
+    <td>&lt;article&gt;</td>
+    <td>Self-contained content jo alag se meaningful ho.</td>
+    <td>Blog post, news article</td>
+  </tr>
+
+  <tr>
+    <td>&lt;aside&gt;</td>
+    <td>Main content se related side content.</td>
+    <td>Sidebar, ads</td>
+  </tr>
+
+  <tr>
+    <td>&lt;footer&gt;</td>
+    <td>Page ya section ka bottom area.</td>
+    <td>Copyright, contact info</td>
+  </tr>
+
+  <tr>
+    <td>&lt;main&gt;</td>
+    <td>Page ka main content (unique hota hai).</td>
+    <td>Central content of webpage</td>
+  </tr>
+
+  <tr>
+    <td>&lt;figure&gt;</td>
+    <td>Image, diagram, code block ko wrap karta hai.</td>
+    <td>Image + caption section</td>
+  </tr>
+
+  <tr>
+    <td>&lt;figcaption&gt;</td>
+    <td>Figure ka caption/description.</td>
+    <td>Image description</td>
+  </tr>
+
+  <tr>
+    <td>&lt;details&gt;</td>
+    <td>Expandable/Collapsible info block.</td>
+    <td>FAQ dropdown</td>
+  </tr>
+
+  <tr>
+    <td>&lt;summary&gt;</td>
+    <td>Details element ka visible title.</td>
+    <td>FAQ question text</td>
+  </tr>
+
+</table>
+
+
+<!--🧠 Quick Summary (1-Line Notes)
+
+✔ <header> → Top section
+✔ <nav> → Navigation links
+✔ <main> → Main content
+✔ <section> → Page section
+✔ <article> → Independent article
+✔ <aside> → Sidebar content
+✔ <footer> → Bottom section
+✔ <figure> → Image or code block wrapper
+✔ <figcaption> → Caption under figure
+✔ <details> → Expandable area
+✔ <summary> → Details title-->
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Elements Example</title>
+</head>
+<body>
+
+    <!-- HEADER: Top area of website -->
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my page</p>
+    </header>
+
+    <!-- NAV: Navigation menu -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- MAIN: Main content of the page -->
+    <main>
+
+        <!-- SECTION: One topic or part of the page -->
+        <section>
+            <h2>About Semantic HTML</h2>
+            <p>Semantic elements give meaning to the webpage.</p>
+        </section>
+
+        <!-- ARTICLE: Independent, self-contained content -->
+        <article>
+            <h2>Blog Article</h2>
+            <p>This is a sample blog post that can stand independently.</p>
+        </article>
+
+        <!-- ASIDE: Side content related to the main content -->
+        <aside>
+            <h3>Related Links</h3>
+            <p>This is sidebar content.</p>
+        </aside>
+
+        <!-- FIGURE: Image or diagram container -->
+        <figure>
+            <img src="image1.jpg" alt="Sample Image" width="200">
+            <!-- FIGCAPTION: Caption for the image -->
+            <figcaption>This is an image caption.</figcaption>
+        </figure>
+
+        <!-- DETAILS: Expand/hide content -->
+        <details>
+            <!-- SUMMARY: Visible heading of details -->
+            <summary>Click to read more</summary>
+            <p>This content is hidden until you click.</p>
+        </details>
+
+    </main>
+
+    <!-- FOOTER: Bottom area of the page -->
+    <footer>
+        <p>© 2025 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

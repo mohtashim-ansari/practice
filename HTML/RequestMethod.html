@@ -1,0 +1,119 @@
+<!--✅ HTTP Request Methods (Easy Explanation)
+Web browser jab server se baat karta hai, to wo request method use karta hai.
+Yeh batata hai: “Server, main kya karna chahta hoon?”-->
+
+
+<!--🌐 HTTP Request Methods (Theory)
+
+Jab bhi browser server ko request bhejta hai
+(form submit, page open, data send), wo HTTP request method use karta hai.
+HTTP methods batate hain ki server ko kya kaam karna hai.-->
+
+<!--1️⃣ GET Method
+✔ Purpose: Data lena (fetch karna)
+Server se information mangta hai.
+URL me data dikhai deta hai (query string).
+Secure nahi hota sensitive data ke liye.-->
+
+<!--2️⃣POST Method
+✔ Purpose: Data send karna (securely)
+Server ko data bhejta hai.
+Data URL me dikhta nahi.
+Form submission me use hota hai.
+GET se secure hota ha-->
+
+<!--3️⃣ PUT Method
+✔ Purpose: Data ko replace/update karna
+Poori resource ko update karta hai.
+Agar resource nahi ho to create kar deta hai.-->
+
+<!--4️⃣ PATCH Method
+✔ Purpose: Partially update karna
+Sirf thoda sa data update hota hai, pura record nahi.-->
+
+<!--5️⃣ DELETE Method
+✔ Purpose: Data delete karna
+Server se resource hata deta hai.-->
+
+<!--6️⃣ HEAD Method
+✔ Purpose: Headers check karna
+GET ki tarah hota hai, lekin page content nahi return karta.
+Sirf header (metadata) return hota.-->
+
+<!--7️⃣ OPTIONS Method
+✔ Purpose: Allowed methods check karna
+Server batata hai ki resource ke upar kaun se methods allowed hain.-->
+
+<!--8️⃣ TRACE Method
+✔ Purpose: Request ko trace karna
+Request loop-back return karta hai debugging ke liye.
+⚠ Security risk — isliye modern servers me disable hota hai.-->
+
+<!--9️⃣ CONNECT Method
+✔ Purpose: Tunnel create karna
+HTTPS connections ko establish karta hai.
+Mostly proxies/secure connections ke liye.-->
+
+<table border="1" cellpadding="8" cellspacing="0">
+
+  <tr>
+    <th>Method</th>
+    <th>Purpose</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>GET</td>
+    <td>Data Fetch</td>
+    <td>Server se data laata hai. URL me data dikhai deta hai.</td>
+  </tr>
+
+  <tr>
+    <td>POST</td>
+    <td>Data Send</td>
+    <td>Server ko securely data send karta hai. URL me data nahi dikhta.</td>
+  </tr>
+
+  <tr>
+    <td>PUT</td>
+    <td>Full Update</td>
+    <td>Pura record update ya replace kar deta hai.</td>
+  </tr>
+
+  <tr>
+    <td>PATCH</td>
+    <td>Partial Update</td>
+    <td>Record ka sirf ek part update karta hai.</td>
+  </tr>
+
+  <tr>
+    <td>DELETE</td>
+    <td>Delete Data</td>
+    <td>Server se data delete karta hai.</td>
+  </tr>
+
+  <tr>
+    <td>HEAD</td>
+    <td>Headers Only</td>
+    <td>Sirf header return karta hai, page content nahi.</td>
+  </tr>
+
+  <tr>
+    <td>OPTIONS</td>
+    <td>Allowed Methods</td>
+    <td>Server batata hai ki kaun-kaun se methods allowed hain.</td>
+  </tr>
+
+  <tr>
+    <td>TRACE</td>
+    <td>Debug</td>
+    <td>Request ko trace karta hai. Security risk, rarely used.</td>
+  </tr>
+
+  <tr>
+    <td>CONNECT</td>
+    <td>Secure Tunnel</td>
+    <td>HTTPS connection establish karta hai.</td>
+  </tr>
+
+</table>

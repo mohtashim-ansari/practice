@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Layout</title>
+
+  <!-- Simple Modern CSS Styling -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    /* HEADER */
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    /* NAVIGATION */
+    nav {
+      background: #444;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    nav a:hover {
+      color: #00eaff;
+    }
+
+    /* LAYOUT WRAPPER */
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr; /* Main + Sidebar */
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* MAIN SECTION */
+    main {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    section, article {
+      margin-bottom: 20px;
+    }
+
+    /* SIDEBAR */
+    aside {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      height: fit-content;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      background: #222;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    My Modern Website
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- CONTENT + SIDEBAR GRID -->
+  <div class="container">
+
+    <!-- MAIN CONTENT AREA -->
+    <main>
+
+      <section>
+        <h2>Welcome</h2>
+        <p>This is a modern layout using HTML + CSS.</p>
+      </section>
+
+      <article>
+        <h2>Latest Blog</h2>
+        <p>This is an article section inside the main content.</p>
+      </article>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside>
+      <h3>Sidebar</h3>
+      <p>Useful links or ads go here.</p>
+    </aside>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 My Modern Website
+  </footer>
+
+</body>
+</html>
