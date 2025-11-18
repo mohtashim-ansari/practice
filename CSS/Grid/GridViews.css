@@ -1,0 +1,25 @@
+/* MAIN GRID VIEW (3 COLUMNS) */
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px;                              /* space between boxes */
+    padding: 20px;
+}
+
+/* GRID BOX STYLE */
+.box {
+    background: #7ed6df;
+    padding: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 2px solid #22a6b3;
+}
+
+/* RESPONSIVE FOR MOBILE */
+@media (max-width: 600px) {
+    .grid-view {
+        grid-template-columns: 1fr; /* 1 column on small screens */
+    }
+}

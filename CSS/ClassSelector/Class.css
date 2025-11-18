@@ -1,0 +1,16 @@
+/* ===== CLASS SELECTOR ===== */
+
+/* All elements with class="highlight" will get this style */
+.highlight {
+    background-color: lightgreen;   /* Light green background */
+    padding: 10px;                  /* Space around the text */
+    border: 2px solid green;        /* Green border */
+    margin-bottom: 10px;            /* Space between elements */
+    border-radius: 6px;             /* Rounded corners */
+}
+
+/* Optional: styling the heading */
+h1 {
+    text-align: center;
+    color: darkgreen;
+}

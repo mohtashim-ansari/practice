@@ -1,0 +1,18 @@
+/* ===== ID SELECTOR CSS ===== */
+
+/* Targeting the element with id="intro-text" */
+#intro-text {
+    color: blue;                 /* Text color blue */
+    font-size: 22px;             /* Increase text size */
+    font-weight: bold;           /* Make text bold */
+    background-color: #f8f3c4;   /* Light yellow background */
+    padding: 10px;               /* Space inside the box */
+    border-left: 5px solid orange; /* Left side border */
+    border-radius: 5px;          /* Soft round corners */
+}
+
+/* Styling the heading (optional) */
+h1 {
+    text-align: center;          /* Center the heading */
+    color: darkblue;             /* Heading color */
+}

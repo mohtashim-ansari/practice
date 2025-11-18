@@ -1,0 +1,66 @@
+/* Grid Container */
+.grid-container {
+    display: grid;                     /* Enable grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 15px;                         /* Space between items */
+    padding: 20px;
+}
+
+/* Grid Items */
+.box {
+    background: lightblue;
+    border: 2px solid blue;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* -------------*/
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* -------------*/
+
+.container {
+  display: grid;
+  grid-template-columns: 80px 200px auto;
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;  
+}
+.container div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+/* -------------*/
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;  
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;  
+}
+.container div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+/* Beautiful Gradient Header */
+.hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 90px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-8px);
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}

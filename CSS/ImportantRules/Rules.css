@@ -1,0 +1,14 @@
+/* NORMAL CSS */
+.normal-text {
+    color: blue;       /* Turns text BLUE */
+}
+
+/* INLINE CSS will override this one */
+.inline-text {
+    color: rgb(123, 179, 166);     /* This will NOT apply because inline CSS wins */
+}
+
+/* IMPORTANT OVERRIDES EVERYTHING */
+.important-text {
+    color: rgb(148, 108, 48) !important;  /* OVERWRITES inline, normal, everything */
+}

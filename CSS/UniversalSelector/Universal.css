@@ -1,0 +1,20 @@
+/* ===== UNIVERSAL SELECTOR ===== */
+
+/* * = Selects ALL elements in the page */
+* {
+    margin: 0;               /* Remove default margins */
+    padding: 0;              /* Remove default padding */
+    font-family: Arial;      /* Change font for entire page */
+    box-sizing: border-box;  /* More consistent layout */
+}
+
+/* Styling specific elements */
+h1 {
+    margin: 20px;            /* Adding custom margin */
+    color: darkblue;
+}
+
+p, div {
+    margin: 15px;
+    font-size: 18px;
+}

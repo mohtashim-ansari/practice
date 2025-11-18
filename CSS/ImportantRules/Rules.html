@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Priority Example</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="Rules.css">
+</head>
+<body>
+
+    <h1>CSS Priority (Simple Working Example)</h1>
+
+    <!-- NORMAL CSS EXAMPLE -->
+    <p class="normal-text">This text uses NORMAL CSS (should be BLUE)</p>
+
+    <!-- INLINE CSS EXAMPLE -->
+    <p class="inline-text" style="color: rgb(12, 179, 26);">
+        This text uses INLINE CSS (should be GREEN)
+    </p>
+
+    <!-- IMPORTANT CSS EXAMPLE -->
+    <p class="important-text" style="color: orange;">
+        This text uses !important (should be RED, even though inline says ORANGE)
+    </p>
+
+</body>
+</html>

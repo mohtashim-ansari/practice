@@ -1,0 +1,22 @@
+/* ===== EXTERNAL CSS ===== */
+
+/* Styling the Heading */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Styling the Paragraph */
+p {
+    font-size: 18px;
+    color: green;
+}
+
+/* Styling the Div Box */
+.box {
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid orange;
+    border-radius: 6px;
+    margin-top: 10px;
+}
