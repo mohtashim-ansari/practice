@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inline JavaScript Example</title>
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="InLine.css">
+</head>
+<body>
+
+    <h1>Inline JavaScript Demo</h1>
+
+    <!-- INLINE JS INSIDE TAG -->
+    <button onclick="alert('Button Clicked!')">Click Me</button>
+
+    <br><br>
+
+    <!-- INLINE JS changing text -->
+    <p id="message">Original Text</p>
+    <button onclick="document.getElementById('message').innerHTML = 'Text Changed by Inline JS';">
+        Change Text
+    </button>
+
+</body>
+</html>

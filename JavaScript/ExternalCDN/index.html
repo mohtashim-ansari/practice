@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>External CDN JavaScript Working Example</title>
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-center mt-5">
+
+    <h1><i class="fa-solid fa-cloud"></i> External CDN JavaScript Working Demo</h1>
+
+    <p id="demo-text">Original Text</p>
+
+    <!-- Buttons -->
+    <button class="btn btn-primary m-2" onclick="changeText()">Change Text</button>
+    <button class="btn btn-success m-2" onclick="showAlert()">Show Alert</button>
+
+    <!-- JS should load at bottom to avoid errors -->
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Your External JS (MUST BE LAST) -->
+    <script src="script.js"></script>
+
+</body>
+</html>

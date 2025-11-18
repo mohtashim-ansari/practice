@@ -1,0 +1,29 @@
+/* PAGE STYLE */
+body {
+    text-align: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER STYLE */
+h1 {
+    color: #007bff;
+}
+
+/* BUTTON STYLE */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER EFFECT */
+button:hover {
+    background-color: #218838;
+}

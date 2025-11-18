@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>innerHTML Example</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JavaScript innerHTML Demo</h1>
+
+    <!-- Text that will change -->
+    <p id="content">This is the original text.</p>
+
+    <!-- Button -->
+    <button onclick="changeData()">Change Content</button>
+    <button onclick="resetContent()">Reset Content</button>
+
+   
+    <script>
+        function changeData() {
+            document.getElementById("content").innerHTML =
+                "<b>Content changed using innerHTML!</b><br><i>You can also add HTML tags here.</i>";
+        };
+        function resetContent() {
+            document.getElementById("content").innerHTML = "This is the original text.";
+        };
+
+    </script>
+
+</body>
+
+</html>

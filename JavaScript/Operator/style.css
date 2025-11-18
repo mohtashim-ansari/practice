@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

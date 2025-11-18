@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+/* Heading */
+h1 {
+    color: #007bff;
+}
+
+/* Button style */
+#clickBtn {
+    padding: 12px 25px;
+    background: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#clickBtn:hover {
+    background: #1e7e34;
+}
+
+/* Hover Box */
+#hoverBox {
+    width: 200px;
+    height: 100px;
+    background: orange;
+    margin: 25px auto;
+    line-height: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+/* Input Field */
+#inputField {
+    padding: 10px;
+    width: 260px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #888;
+}

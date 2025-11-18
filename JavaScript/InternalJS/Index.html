@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal JavaScript Example</title>
+
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- INTERNAL JAVASCRIPT -->
+    <script>
+        function changeText() {
+            document.getElementById("msg").innerHTML = "Text Changed using Internal JavaScript!";
+        }
+
+        function showMessage() {
+            alert("Internal JavaScript Alert!");
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Internal JavaScript Demo</h1>
+
+    <p id="msg">Original Text</p>
+
+    <!-- calling internal JS functions -->
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="showMessage()">Show Alert</button>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<p id="clock" style="font-size:30px; font-weight:bold;"></p>
+
+<p id="custom"></p>
+
+<p id="date1"></p>
+
+<script>
+    function showTime() {
+        const t = new Date();
+        document.getElementById("clock").innerHTML =
+            t.toLocaleTimeString();
+    }
+
+    setInterval(showTime, 1000);
+    const d = new Date();
+    const options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    };
+
+    document.getElementById("custom").innerHTML =
+        d.toLocaleDateString("en-US", options);
+
+
+    const d1 = new Date();
+    const day = d.getDate();
+    const month = d.getMonth() + 1; 
+    const year = d.getFullYear();
+
+    document.getElementById("date1").innerHTML =
+        day + "-" + month + "-" + year;
+</script>
+
+</script>
