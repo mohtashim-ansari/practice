@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#box {
+    width: 200px;
+    height: 100px;
+    background: skyblue;
+    border: 1px solid #555;
+    margin-top: 25px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
