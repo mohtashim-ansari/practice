@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!--RegExp are be used for:
+
+    -Text searching
+    -Text replacing
+    -Text validation -->
+
+   <!--Method	Description
+match(regex)	Returns an Array of results
+replace(regex)	Returns a new String
+search(regex)	Returns the index of the first match -->
+
+<h1>Regular Expressions</h1>
+<h2>The match() Method</h2>
+
+<p>Search for "w3Schools" and display the first match:</p>
+
+<p id="demo"></p>
+
+
+<h1>Regular Expressions</h1>
+<h2>The /g Flag</h2>
+
+<p>A global search for "all" in a string:</p>
+
+<p id="demo1"></p>
+
+
+
+<script>
+let text = "Visit W3Schools!"; 
+const myArr = text.match(/W3Schools/);
+
+document.getElementById("demo").innerHTML = myArr;
+
+let text1 = "Is this all there is all?";
+const pattern = /all/g;
+
+let result = text1.match(pattern);
+
+document.getElementById("demo1").innerHTML = result;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+.box {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 450px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#output {
+  background: #e8ffe8;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
